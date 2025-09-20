@@ -1,0 +1,7 @@
+/* Tailwind directives removed for editor/TS sanity. When running the build, Tailwind should process the original directives. */
+:root { color-scheme: light; }
+html, body, #__next { height: 100%; }
+body { background: #fafafa; color: #0a0a0a; -webkit-font-smoothing: antialiased; }
+*:focus-visible { outline: none; box-shadow: 0 0 0 2px rgba(58,58,58,0.5); }
+.button-press:active { transform: scale(.98); }
+.button-press { transition: transform 150ms; }
